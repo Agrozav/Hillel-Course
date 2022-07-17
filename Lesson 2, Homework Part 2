@@ -1,0 +1,19 @@
+# Operator usage examples
+a = 7+6
+print('7+6=',a)
+b = 9/3
+print('9/3=',b)
+c = 8*5
+print('8*5=',c)
+d = 21%5
+print('21%5=',d)
+e = 8<7
+print('8<7 is',e)
+f = 8>5
+print('8>5 is',f)
+g = 2**8
+print('2**8=',g)
+h = 256//8
+print('256//8=',h)
+
+
