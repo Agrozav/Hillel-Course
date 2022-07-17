@@ -1,5 +1,5 @@
-user =('Write your name, please ')
-age = ('Write your age, please ')
+user = input('Write your name, please ')
+age = input('Write your age, please ')
 age = int(age)
 
 if 17<= age <= 70:
