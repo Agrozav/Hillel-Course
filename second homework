@@ -1,0 +1,18 @@
+user =('Write your name, please ')
+age = ('Write your age, please ')
+age = int(age)
+
+if 17<= age <= 70:
+    print(user,',Welcome on our website')
+    
+elif age == 16:
+    print('Dear',user,',you need to wait one year')
+
+elif age >= 70 and age <= 90 or 90 <= age <= 120:
+    print('Everithing will be good,',user,'and welcome')
+
+elif age >= 121:
+    print(user,',you are a wrong user')
+
+else:
+    print(user,',you are too young')
